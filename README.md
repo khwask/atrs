@@ -44,3 +44,24 @@ $ mvn -f atrs-web/pom.xml clean install
 ```
 
 Deploy 'atrs-web/target/atrs.war' to tomcat and access [http://localhost:8080/atrs].
+
+## Front-end refactoring
+
+### npm
+ 
+```console
+$ cd atrs-web
+$ npm init
+$ npm install --save-dev webpack
+$ npm install bootstrap@3.2.0
+$ npm install bootstrap-datepicker@1.7.1
+$ npm install jquery@1.11.1
+$ npm install tablesorter@2.29.2
+$ npm install lodash@2.4.1
+$ npm install moment@2.8.3
+$ npm install parsleyjs@2.0.6
+```
+
+- bootstrap-datepickerが、ガイドでのスタックの1.3.1がnpmから提供されていない・・・とりあえず最新1.7.1
+- tablesorterガイドでのスタックの2.17.7がnpmから提供されていない・・・とりあえず最新2.29.2
+- moment.jsのバージョンが、ガイドとサンプルAPで違う（サンプルAPに合わせた）
