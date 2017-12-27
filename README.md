@@ -62,6 +62,3 @@ $ npm install moment@2.8.3
 $ npm install parsleyjs@2.0.6
 ```
 
-- bootstrap-datepickerが、ガイドでのスタックの1.3.1がnpmから提供されていない・・・とりあえず最新1.7.1
-- tablesorterガイドでのスタックの2.17.7がnpmから提供されていない・・・とりあえず最新2.29.2
-- moment.jsのバージョンが、ガイドとサンプルAPで違う（サンプルAPに合わせた）
